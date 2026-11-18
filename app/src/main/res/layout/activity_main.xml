@@ -18,12 +18,35 @@
 
     <Switch
         android:id="@+id/swEliavtsf"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:text="בדיקת ניחוש"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="130dp"
+        tools:ignore="MissingConstraints,UseSwitchCompatOrMaterialXml" />
+
+    <Button
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Switch"
-        tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="136dp"
-        tools:ignore="MissingConstraints,UseSwitchCompatOrMaterialXml" />
+        android:text="start"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="600dp"
+        tools:ignore="MissingConstraints" />
+
+    <SeekBar
+        android:id="@+id/seek1"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="250dp"
+        android:text="you can enter your guess"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
